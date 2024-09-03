@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500;600;700&family=Heebo&family=Shadows+Into+Light&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<!-- Nutrition Demo Specific Stylesheet -->
+	<link rel="stylesheet" href="demos/nutrition/nutrition.css" type="text/css" /> <!-- Nutrition Custom Css -->
+	<link rel="stylesheet" href="demos/nutrition/css/fonts.css" type="text/css" /> <!-- Nutrition Custom Fonts -->
+	<!-- / -->
+
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="css/colors.php?color=080E2C" type="text/css" />
+
+	<!-- Document Title
+	============================================= -->
+	<title>Nutrition | Canvas</title>
+	<style>
+		#logo {
+			padding: 10px;
+		}
+		li {
+			background: transparent !important;
+			border: 0px !important; 
+		}
+		.fw-normal {
+			font-size: 20px !important;
+		}
+	</style>
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="border-bottom-0">
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row">
+
+						<!-- Logo
+						============================================= -->
+						<div id="logo" class="me-lg-5">
+							<a href="index.html" class="standard-logo"><img src="./img/logo-sena.svg"
+									alt="Canvas Logo"></a>
+							<a href="index.html" class="retina-logo"><img src="./img/logo-sena.svg"
+									alt="Canvas Logo"></a>
+						</div><!-- #logo end -->
+
+						
+
+						<div id="primary-menu-trigger" class="ms-3">
+							<svg class="svg-trigger" viewBox="0 0 100 100">
+								<path
+									d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20">
+								</path>
+								<path d="m 30,50 h 40"></path>
+								<path
+									d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20">
+								</path>
+							</svg>
+						</div>
+
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu me-lg-auto">
+
+							<ul class="menu-container">
+								<li class="menu-item current"><a class="menu-link" href="#">
+										<div>Home</div>
+									</a></li>
+								<li class="menu-item"><a class="menu-link" href="#">
+										<div>About</div>
+									</a></li>
+								<li class="menu-item"><a class="menu-link" href="#">
+										<div>Pricing</div>
+									</a></li>
+								<li class="menu-item"><a class="menu-link" href="#">
+										<div>Contact</div>
+									</a></li>
+							</ul>
+
+						</nav><!-- #primary-menu end -->
+
+						<form class="top-search-form" action="search.html" method="get">
+							<input type="text" name="q" class="form-control" value=""
+								placeholder="Type &amp; Hit Enter.." autocomplete="off">
+						</form>
+
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+		</header><!-- #header end -->
+
+		<!-- Hero
+		============================================= -->
+		<section id="slider" class="slider-element bgcolor-2">
+
+			<img src="demos/nutrition/images/hero-bg.svg" class="position-absolute pos-x-end d-none d-lg-block" alt="">
+
+			<div class="container py-5 py-lg-0">
+				<div
+					class="row min-vh-lg-100 align-items-center justify-content-md-between justify-content-center col-mb-50">
+				
+					<!-- Text -->
+					<div class="col-xl-12 col-md-12">
+						<div class="container mt-5">
+							<h1 class="text-center mb-4">Estructura de una Base de Datos</h1>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">
+									<p class="fw-normal">Imagine una hoja de cálculo con filas y columnas.
+									Cada fila es un registro.
+									Cada columna es un campo.
+									El nombre de la columna es el nombre del campo.
+									La intersección de una fila y una columna es el valor del campo para ese registro.</p>
+								</li>
+								<li class="list-group-item">
+									<h2>Tipos de datos</h2>
+									<ul>
+										<li>Texto (varchar)</li>
+										<li>Número entero (int)</li>
+										<li>Número decimal (float)</li>
+										<li>Fecha (date)</li>
+										<li>Hora (time)</li>
+									</ul>
+								</li>
+							</ul>
+							<h2 class="mt-4">Tabla: Clientes</h2>
+							<table class="table table-striped table-hover">
+								<thead>
+									<tr>
+										<th>ID (int)</th>
+										<th>Nombre (varchar)</th>
+										<th>Dirección (varchar)</th>
+										<th>Teléfono (varchar)</th>
+										<th>Fecha de Nacimiento (date)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>1</td>
+										<td>Juan Pérez</td>
+										<td>Calle 123</td>
+										<td>555-1234</td>
+										<td>1990-02-12</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>María García</td>
+										<td>Avenida 456</td>
+										<td>666-5678</td>
+										<td>1985-08-25</td>
+									</tr>
+									<tr>
+										<td>3</td>
+										<td>Carlos López</td>
+										<td>Calle 789</td>
+										<td>777-8901</td>
+										<td>1992-01-01</td>
+									</tr>
+								</tbody>
+							</table>
+							<ul class="list-group list-group-flush mt-4">
+								<li class="list-group-item">
+									<p class="fw-normal">En este ejemplo:
+									Cada fila representa un registro (un cliente).
+									Cada columna representa un campo (ID, Nombre, Dirección, Teléfono, Fecha de Nacimiento).
+									El nombre de la columna es el nombre del campo.
+									La intersección de una fila y una columna es el valor del campo para ese registro (por ejemplo, el teléfono de Juan Pérez es 555-1234).</p>
+								</li>
+								<li class="list-group-item">
+									<h2>Tipos de datos:</h2>
+									<ul>
+										<li>ID: Número entero (int)</li>
+										<li>Nombre: Texto (varchar)</li>
+										<li>Dirección: Texto (varchar)</li>
+										<li>Teléfono: Texto (varchar)</li>
+										<li>Fecha de Nacimiento: Fecha (date)</li>
+									</ul>
+								</li>
+							</ul>
+							<br>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+	
+		
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="bg-white border-0">
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap">
+
+					<div class="row justify-content-between">
+						<div class="col-lg-3 mb-5 mb-lg-0">
+							<div class="widget clearfix">
+
+								<div class="fw-semibold font-primary color ls3 h2 text-uppercase mb-4">Canvas<span
+										class="color-2">.</span></div>
+								<p class="mb-4 op-07">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+									sint veritatis, necessitatibus voluptatem.</p>
+							</div>
+						</div>
+						<div class="col-lg-7 d-flex justify-content-end">
+
+							<div class="row w-100">
+								<div class="col-lg-4 col-6">
+									<ul class="widget_links widget-li-noicon">
+										<li class="mb-2 fw-medium"><a href="#">Home</a></li>
+										<li class="mb-2 fw-medium"><a href="#">About</a></li>
+										<li class="mb-2 fw-medium"><a href="#">FAQs</a></li>
+										<li class="mb-2 fw-medium"><a href="#">Support</a></li>
+									</ul>
+								</div>
+
+								<div class="col-lg-4 col-6">
+									<ul class="widget_links widget-li-noicon">
+										<li class="mb-2 fw-medium"><a href="#">Shop</a></li>
+										<li class="mb-2 fw-medium"><a href="#">Portfolio</a></li>
+										<li class="mb-2 fw-medium"><a href="#">Blog</a></li>
+									</ul>
+								</div>
+
+								<div class="col-lg-4 col-6">
+									<ul class="widget_links widget-li-noicon">
+										<li class="mb-2 fw-medium"><a href="#">Corporate</a></li>
+										<li class="mb-2 fw-medium"><a href="#">Agency</a></li>
+										<li class="mb-2 fw-medium"><a href="#">eCommerce</a></li>
+									</ul>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div><!-- .footer-widgets-wrap end -->
+
+			</div>
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights" class="bg-white">
+				<div class="container">
+
+					<div class="row justify-content-between">
+
+						<div class="col">
+							<span class="text-black-50">&copy; 2020 All Rights Reserved by Canvas Inc.</span>
+						</div>
+
+						<div class="col text-right">
+							<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div><!-- #copyrights end -->
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-line-chevrons-up"></div>
+
+	<!-- JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.min.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
+</body>
+
+</html>
