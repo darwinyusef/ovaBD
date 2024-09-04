@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Botones con Iconos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        .bloque {
+            height: 200px; /* Establece la altura de cada bloque */
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Conceptos Básicos de Bases de Datos</h2>
+        <div class="row">
+            <div class="col-md-3 bloque">
+                <button class="btn btn-primary btn-lg" data-toggle="tooltip" title="Registro">
+                    <i class="fas fa-file"></i> Registro
+                </button>
+                <p>Un registro es una colección de datos relacionados entre sí. Ejemplo: Un registro de un cliente contiene su nombre, dirección, teléfono, etc.</p>
+            </div>
+            <div class="col-md-3 bloque">
+                <button class="btn btn-success btn-lg" data-toggle="tooltip" title="Campo">
+                    <i class="fas fa-column"></i> Campo
+                </button>
+                <p>Un campo es una columna de un registro que contiene un tipo específico de dato. Ejemplo: El campo "nombre" contiene el nombre del cliente.</p>
+            </div>
+            <div class="col-md-3 bloque">
+                <button class="btn btn-warning btn-lg" data-toggle="tooltip" title="Tabla">
+                    <i class="fas fa-table"></i> Tabla
+                </button>
+                <p>Una tabla es una colección de registros relacionados entre sí. Ejemplo: Una tabla de clientes contiene registros de todos los clientes.</p>
+            </div>
+            <div class="col-md-3 bloque">
+                <button class="btn btn-danger btn-lg" data-toggle="tooltip" title="Base de Datos">
+                    <i class="fas fa-database"></i> Base de Datos
+                </button>
+                <p>La base de datos es el conjunto de todas las tablas y registros. Ejemplo: La base de datos contiene todas las tablas y registros de la empresa.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</body>
+</html>

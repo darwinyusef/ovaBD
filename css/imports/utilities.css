@@ -138,15 +138,15 @@ span.middot {
 
 .bg-color,
 .bg-color #header-wrap {
-  background-color: #6a9dd7 !important;
+  background-color: #39a900 !important;
 }
 
 .color {
-  color: #6a9dd7 !important;
+  color: #39a900 !important;
 }
 
 .border-color {
-  border-color: #6a9dd7 !important;
+  border-color: #39a900 !important;
 }
 
 .nott {
@@ -420,7 +420,7 @@ span.middot {
 
 .h-text-color:hover,
 a.h-text-color:hover {
-  color: #6a9dd7 !important;
+  color: #39a900 !important;
 }
 
 /* ----------------------------------------------------------------
@@ -432,7 +432,7 @@ a.h-text-color:hover {
 }
 
 .h-bg-color:hover {
-  background-color: #6a9dd7 !important;
+  background-color: #39a900 !important;
 }
 
 .h-nobg:hover {
